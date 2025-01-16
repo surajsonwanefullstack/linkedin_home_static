@@ -1,0 +1,57 @@
+:root {
+    --nav-pimary-color: #fff;
+    --navbar-secondary-color: #1a1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #c8b9b9;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: var(--nav-pimary-color);
+    height: 77px;
+}
+.navbar img{
+    width: 40px;
+}
+
+.navbar .navbar-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+    background-color: var(--navbar-secondary-color);
+}
+
+.navbar .navbar-right {
+    display: flex;
+    flex-direction: row;
+  
+    background-color: var(--navbar-secondary-color);
+}
+
+.navbar h1{
+    font-size: small;
+}
+.navbar img{
+    width: 36px;
+    border: 3px solid red;
+}
+/* .navbar-right :last-child{
+    width: 50px;
+    border: 4px solid pink;
+} */
+
+.navbar-right > div{
+    height: 100%;
+    background-color: tomato;
+}
